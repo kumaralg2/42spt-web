@@ -20,8 +20,8 @@ Route::get('/index', function () {
 Route::get('/about', function () {
     return view('pages.about');
 });
-Route::get('/courses', function () {
-    return view('pages.courses');
+Route::get('/technologies', function () {
+    return view('pages.technologies');
 });
 Route::get('/price', function () {
     return view('pages.price');
@@ -32,5 +32,12 @@ Route::get('/videos', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 });
+Route::get('/apply-now', function () {
+    return view('pages.apply-now');
+});
+Route::get('/whyus', function () {
+    return view('pages.whyus');
+});
+
 
 

@@ -4,8 +4,8 @@
 
 		<header id="head" class="secondary">
             <div class="container">
-                    <h1>Courses</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing eliras scele!</p>
+                    <h1>Technologies</h1>
+                    <p>Exploring Futurist Technologies</p>
                 </div>
     </header>
 
@@ -50,6 +50,60 @@
 		</a>
 	</li> 
 </ul>
+
+ <section class="news-box top-margin">
+        <div class="container">
+            <h2><span>Some Technologies We Focus On</span></h2>
+            <div class="row">
+       
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="newsBox">
+                        <div class="thumbnail">
+                            <figure><img src="{{asset('assets/images/news2.jpg')}}" alt=""></figure>
+                            <div class="caption maxheight2">
+                            <div class="box_inner">
+                                        <div class="box">
+                                            <p class="title"><h5>Full Stack Development</h5></p>
+                                            <p>Focus on making Full Stack Developers who can work on the Frontend and Backend.</p>
+                                        </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="newsBox">
+                        <div class="thumbnail">
+                            <figure><img src="{{asset('assets/images/news3.jpg')}}" alt=""></figure>
+                            <div class="caption maxheight2">
+                            <div class="box_inner">
+                                        <div class="box">
+                                            <p class="title"><h5>Machine Learning Engineer </h5></p>
+                                            <p>Making Developers who can work on the latest technologies like ML/AI and DataScience.</p>
+                                        </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="newsBox">
+                        <div class="thumbnail">
+                            <figure><img src="{{asset('assets/images/news4.jpg')}}" alt=""></figure>
+                            <div class="caption maxheight2">
+                           <div class="box_inner">
+                                        <div class="box">
+                                            <p class="title"><h5>Mobile Development</h5></p>
+                                            <p>Making Expert Developers who can work on IOS and Android Development.</p>
+                                        </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
 
 </div>
 	<div id="courses">

@@ -5,59 +5,60 @@
     <div class="col-md-3 col-sm-6">
       <div class="footerwidget">
         <h4>
-          Course Categories
+          Focused Technologies
         </h4>
         <div class="menu-course">
           <ul class="menu">
             <li><a href="#">
-                List of Technology 
+                Full Stack Development 
               </a>
             </li>
             <li><a href="#">
-                List of Business
+               Machine Learning
               </a>
             </li>
             <li><a href="#">
-                List of Photography
+                AI/Data Science
               </a>
             </li>
             <li><a href="#">
-               List of Language
+               AR/VR
+              </a>
+            </li>
+            <li><a href="#">
+               Digital Marketing
               </a>
             </li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="col-md-3 col-sm-6">
-      <div class="footerwidget">
-        <h4>
-          Products Categories
-        </h4>
-        <div class="menu-course">
-          <ul class="menu">
-            <li> <a href="#">
-                Individual Plans  </a>
-            </li>
-            <li><a href="#">
-                Business Plans
-              </a>
-            </li>
-            <li><a href="#">
-                Free Trial
-              </a>
-            </li>
-            <li><a href="#">
-                Academic
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <div class="col-md-3 col-sm-6"> 
+            	<div class="footerwidget"> 
+                         <h4>Contact</h4> 
+                      <i class="fa fa-envelope-o"></i>  contact@42spirit.com<br>
+                      <i class="fa fa-phone"></i>  +91-8639-142-119<br><br>
+                     
+                </div><!-- end widget --> 
     </div>
     <div class="col-md-3 col-sm-6">
       <div class="footerwidget">
-        <h4>
+      <!-- <p>Our Office Address:</p> -->
+      <div class="contact-info"> 
+          <h5>Bangalore:</h5>
+         <i class="fa fa-map-marker"></i> 4th Floor, Salarpuria Tower -1, No. 22, Industrial Layout Landmark: Forum Mall,Karnataka 560095 <br>
+      </div> 
+       
+      </div>
+    </div>
+    
+    <div class="col-md-3 col-sm-6">
+      <div class="footerwidget">
+      <div class="contact-info"> 
+         <h5>Hyderabad:</h5>
+         <i class="fa fa-map-marker"></i> Plot no. 44, Kavuri Hills, Phase 1,Behind Hotel Jubilee Ridge, Hyderabad, Telangana 500033  <br>
+      </div>
+        <!-- <h4>
           Browse by Categories
         </h4>
         <div class="menu-course">
@@ -80,28 +81,17 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
-    <div class="col-md-3 col-sm-6"> 
-            	<div class="footerwidget"> 
-                         <h4>Contact</h4> 
-                        <p>Lorem reksi this dummy text unde omnis iste natus error sit volupum</p>
-            <div class="contact-info"> 
-            <i class="fa fa-map-marker"></i> Kerniles 416  - United Kingdom<br>
-            <i class="fa fa-phone"></i>+00 123 156 711 <br>
-             <i class="fa fa-envelope-o"></i> youremail@email.com
-              </div> 
-                </div><!-- end widget --> 
-    </div>
+    
   </div>
 </div>
 			<div class="social text-center">
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-dribbble"></i></a>
-				<a href="#"><i class="fa fa-flickr"></i></a>
-				<a href="#"><i class="fa fa-github"></i></a>
+				<a href="https://www.facebook.com/42Spirit-481413968928533/"><i class="fa fa-facebook"></i></a>
+				<a href=""><i class="fa fa-instagram"></i></a>
+				<a href=""><i class="fa fa-linkedin"></i></a>
+        
 			</div>
 
 			<div class="clear"></div>
@@ -114,12 +104,11 @@
 					<div class="col-md-6 panel">
 						<div class="panel-body">
 							<p class="simplenav">
-								<a href="index.html">Home</a> | 
-								<a href="about.html">About</a> |
-								<a href="courses.html">Courses</a> |
-								<a href="price.html">Price</a> |
-								<a href="videos.html">Videos</a> |
-								<a href="contact.html">Contact</a>
+								<a href="/index">Home</a> | 
+								<a href="/about">About</a> |
+								<a href="/courses">Courses</a> |
+								<a href="/whyus">Price</a> |
+								<a href="/contact">Contact</a>
 							</p>
 						</div>
 					</div>
@@ -127,7 +116,7 @@
 					<div class="col-md-6 panel">
 						<div class="panel-body">
 							<p class="text-right">
-								Copyright &copy; 2014. Template by <a href="http://webthemez.com/" rel="develop">WebThemez.com</a>
+								Copyright &copy; 2016. <a href="http://42spirit.com/" rel="develop">42Spirit.com</a>
 							</p>
 						</div>
 					</div>
@@ -165,7 +154,14 @@
 				imagePath: '{{asset('assets/images/')}}'
 			});
 
-		});
+    });
+    $(document).ready(function() {
+    //Set the carousel options
+    $('#quote-carousel').carousel({
+      pause: true,
+      interval: 4000,
+    });
+  });
       
 	</script>
     

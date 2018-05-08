@@ -3,10 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="free-educational-responsive-web-template-webEdu">
-	<meta name="author" content="webThemez.com">
-	<title>free-educational-responsive-web-template-webEdu</title>
-	<link rel="favicon" href="{{asset('assets/images/favicon.png')}}">
+	<meta name="description" content="42Spirit | Gain Skill Not Degrees">
+	<title>42Spirit-Gain Skill Not Degrees</title>
+	<link rel="favicon" href="{{asset('assets/images/favicon.jpeg')}}">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
 	<link rel="stylesheet" href="{{asset('assets/css/font-awesome.min.css')}}"> 
@@ -18,5 +17,7 @@
 	<script src="assets/js/html5shiv.js"></script>
 	<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
+
+	
 </head>
 @include('layout.nav')
